@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/049c2c6974.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>Streamline Piping</title>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <section class="mini-nav">
+        <div class="sec-log">
+          <i class="fas fa-user-plus"></i>
+          <p>Call here: 435-563-234</p>
+        </div>
+      </div>
+      <div class="icons-contact">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </section>
+
+    <section class="navbar">
+      <nav>
+        <img class="logo" src="/images/logo-nobg.png" alt="logo"/>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><i id="search-icon" class="fas fa-search"></i></li>
+        </ul>
+        <!-- <label id="icon">
+            <i onclick="reChange()" class="fas fa-bars"></i>
+        </label> -->
+        <label id="icon">
+          <i id="ic2" onclick="reChange('ic2')" class="fas fa-bars"></i>
+      </label>
+    </section>
+
+    <section class="home-img">
+         <img id="img" src="https://i.pinimg.com/564x/76/25/30/762530205a93bdf0959bf5e7fb006d2c.jpg">
+
+         <div class="home-text">
+           <h2>Plumbing solutions</h2>
+           <p>A full service Plumbing company</p>
+           <button id="map">
+             Our services
+           </button>
+           <button id="more-info">
+             Hire us
+          </button>
+         </div>
+    </section>
+
+    <section class="find" id="about">
+      <div class="part-1">
+        <img src="./images/logo-nobg.png" alt="logo">
+      </div>
+      <div class="part-2">
+        <h3>Plumbing solutions & Leak detection</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo nostrum.</p>
+        <button>Call 364-75-4756</button>
+    </div>
+    </section>
+
+
+
+    <section id="services" class="offers">
+      <h2>Our Services</h2>
+      <p>What can we help you today?</p>
+
+      <div class="offers-container">
+
+         <div class="offer">
+           <img src="https://i.pinimg.com/564x/3b/b1/ae/3bb1ae1c589effebc898276f7dd37edd.jpg" alt="image" />
+           <div class="offer-text">
+              <h3>Construction services</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+           </div>
+         </div>
+
+        <div class="offer">
+            <img src="https://i.pinimg.com/564x/13/ee/19/13ee19e3d8a6818ed4ceedbbaf383dca.jpg" alt="image" />
+            <div class="offer-text">
+              <h3>Emergent services</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+        </div>
+     
+
+
+      <div class="offer">
+        <img src="https://i.pinimg.com/564x/8e/80/69/8e80696ab0f9fb14c7245f328adc9e06.jpg" alt="image" />
+        <div class="offer-text">
+           <h3>Leak Detection</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+      </div>
+   </div>
+
+    </section>
+
+  
+    <section class="images">
+        <div class="column">
+          <img src="https://i.pinimg.com/236x/a6/85/b4/a685b4d28b156945605751209c363bb7.jpg">
+          <img src="https://i.pinimg.com/236x/27/4c/54/274c54b0c6ccf30f83a2486d0e39cf7d.jpg">
+          <img src="https://i.pinimg.com/736x/ab/1b/67/ab1b6747989904efee527ce074ba268f.jpg">
+          <img src="https://i.pinimg.com/236x/e8/2d/2e/e82d2e73d1e37d653857b52b3fd3df52.jpg">
+          <img src="https://i.pinimg.com/236x/62/b0/97/62b09797598d91f9a01b8b5e7d74f3ea.jpg">
+          <img src="https://i.pinimg.com/236x/9c/48/0f/9c480f2296581847d00faf4783689f9e.jpg">
+          <img src="https://i.pinimg.com/236x/e9/5d/42/e95d42f049756d702955389a3b53ad42.jpg">
+        </div>
+</section>
+
+    <section id="blog" class="blog">
+      <h2>Clients:</h2>
+      <div class="client-container">
+        <div class="client">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+             incididunt ut labore et dolore magna aliqua. 
+          </p>
+          <h3>Client: John doe</h3>
+        </div>
+         <div class="client">
+          <p>Felis eget nunc lobortis mattis. Aliquam ultrices sagittis orci a scelerisque purus
+             semper eget. Senectus et netus et malesuada fames
+          </p>
+          <h3>Client: James Smith</h3>
+        </div>
+        <div class="client">
+          <p>Elementum integer enim neque volutpat ac tincidunt. Ac tortor vitae purus faucibus 
+            ornare suspendisse sed nisi lacus.
+          </p>
+          <h3>Client: Adam James</h3>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="footer" id="contact">
+        <div class="footer-container">
+
+          <div class="footcon newsletter">
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter to receive the latest news through email</p>
+            <input type="email" placeholder="xyz@example.com"/>
+            <button type="submit">Sub</button>
+          </div>
+        
+
+          <div class="footcon latest">
+            <h2>News:</h2>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Elementum integer enim neque volutpat ac tincidunt. Ac tortor vitae purus faucibus 
+          </div>
+       
+
+        <div class="footcon address">
+          <h2>Address</h2>
+          <p>High park street 04 - 54</p>
+          <p>+222999555(only example number dont try it)</p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+        </div> 
+      </div>
+
+      <p id="links"><a href="#">Home</a> | 
+        <a href="#about">About</a> | 
+        <a href="#services">Services</a> | 
+        <a href="#blog">Contact</a>
+     </p>
+     <p id="copy">Copyright © Streamline Piping</p>
+    </section>
+
+
+    <!--JAVASCRIPT-->
+    <script src="script.js"></script>
+  </body>
+</html>
